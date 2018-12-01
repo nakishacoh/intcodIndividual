@@ -48,6 +48,14 @@ frame.on("ready", function() {
 
 frame.asset("innerwave.jpg").addTo();
 
+// Add play button
+
+new Button("playbutton.png")
+  .center()
+  .mov(0, -340)
+  .sca(.8);
+
+
     stage.update(); // this is needed to show any changes
 
 }); // end of ready
